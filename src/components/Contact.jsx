@@ -156,34 +156,36 @@ export default function Contact () {
             netlify
           >
 
-            <Grid container spacing={2} sx={{ background: '' }}>
+            <Grid container spacing={2}>
               <Grid item xs={12}>
                 <CustomTextField
-                  aria-label='name input field'
+                  component={'input'}
+                  aria-label={'name input field'}
                   required
                   fullWidth
-                  size='small'
-                  id="name"
-                  name="name"
-                  // label={ name === "" ? "Name" : ""}
-                  label={"Name"}
-                  autoComplete="given-name"
+                  size={'small'}
+                  id={"name"}
+                  name={"name"}
+                  type={'text'}
+                  label={'Name'}
+                  autoComplete={'given-name'}
                   error={nameError}
                   helperText={nameError ? 'Name can\'t be empty' : null}
                   onChange={() => setNameError(false)}
-                  // onClick={handleClick}
                 />
               </Grid>
               <Grid item xs={12}>
                 <CustomTextField
-                  aria-label='company input field'
+                  component={'input'}
+                  aria-label={'company input field'}
                   required
                   fullWidth
-                  size='small'
-                  id="company"
-                  name="company"
-                  label="Company"
-                  autoComplete="company"
+                  size={'small'}
+                  id={'company'}
+                  name={'company'}
+                  type={'text'}
+                  label={'Company'}
+                  autoComplete={'company'}
                   error={companyError}
                   helperText={companyError ? 'Company can\'t be empty' : null}
                   onChange={() => setCompanyError('')}
@@ -191,14 +193,16 @@ export default function Contact () {
               </Grid>
               <Grid item xs={12}>
                 <CustomTextField
-                  aria-label='email input field'
+                  component={'input'}
+                  aria-label={'email input field'}
                   required
                   fullWidth
-                  size='small'
-                  id="email"
-                  name="email"
-                  label="Email"
-                  autoComplete="email"
+                  size={'small'}
+                  id={'email'}
+                  name={'email'}
+                  type={'email'}
+                  label={'Email'}
+                  autoComplete={'email'}
                   error={emailError !== ''}
                   helperText={emailError}
                   onChange={() => setEmailError('')}
@@ -206,14 +210,15 @@ export default function Contact () {
               </Grid>
               <Grid item xs={12}>
                 <CustomTextField
-                  aria-label='message input field'
+                  component={'input'}
+                  aria-label={'message input field'}
                   required
                   fullWidth
-                  id="message"
-                  name="message"
-                  label="Message"
-                  type="message"
-                  autoComplete="new-message"
+                  id={'message'}
+                  name={'message'}
+                  label={'Message'}
+                  type={'text'}
+                  autoComplete={'new-message'}
                   error={messageError}
                   helperText={messageError ? 'Message field can\'t be empty' : null}
                   onChange={() => setMessageError(false)}
@@ -234,7 +239,7 @@ export default function Contact () {
                 variant={'contained'}
                 color={'primary'}
                 disableElevation
-                // onClick={() => handleSubmit}
+                onClick={() => handleSubmit}
                 sx={{ borderRadius: '100px', marginTop: '10px', textTransform: 'capitalize' }}
               >
                 Submit
