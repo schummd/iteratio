@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iteratio/static/css/main.7b6f55b9.css",
-    "main.js": "/iteratio/static/js/main.8a893627.js",
+    "main.js": "/iteratio/static/js/main.5d327402.js",
     "static/js/453.5858e738.chunk.js": "/iteratio/static/js/453.5858e738.chunk.js",
     "static/media/previous roles.png": "/iteratio/static/media/previous roles.bdaad4b09e67c17e0a6c.png",
     "static/media/concept1.png": "/iteratio/static/media/concept1.e2cc70fd460282dc2b0e.png",
@@ -84,11 +84,11 @@
     "index.html": "/iteratio/index.html",
     "static/media/VOLT.svg": "/iteratio/static/media/VOLT.4a9d0a0fbd4ad10604a1.svg",
     "main.7b6f55b9.css.map": "/iteratio/static/css/main.7b6f55b9.css.map",
-    "main.8a893627.js.map": "/iteratio/static/js/main.8a893627.js.map",
+    "main.5d327402.js.map": "/iteratio/static/js/main.5d327402.js.map",
     "453.5858e738.chunk.js.map": "/iteratio/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b6f55b9.css",
-    "static/js/main.8a893627.js"
+    "static/js/main.5d327402.js"
   ]
 }
