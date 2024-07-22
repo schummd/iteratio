@@ -77,7 +77,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 
 const Carousel = (props) => {
   const { slides, options } = props
-  const [emblaRef, _] = useEmblaCarousel(options, [Autoplay()])
+  const [emblaRef,] = useEmblaCarousel(options, [Autoplay()])
 
   // const {
   //   prevBtnDisabled,
