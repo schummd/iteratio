@@ -87,6 +87,17 @@ export default function Contact () {
     }
     if (error) return;
 
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => setFormState(true))
+      .catch(() => setFormState(false));
+
     // emailjs.sendForm('service_pxs4h07', 'template_qs2x30y', event.currentTarget, { publicKey: 'fbuDiw0NsG1Tb8d6k' })
     // .then((response) => {
     //         console.log('success!', response.status, response.text);
