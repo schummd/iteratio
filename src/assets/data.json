@@ -1,0 +1,401 @@
+{
+  "volt" : {
+    "summary": {
+      "type": "Mobile App",
+      "title": "Volt",
+      "subtitle": "Digital Banking",
+      "description": [
+        "Volt is the next generation of banking – digital, independent, and completely transparent. It offers simple Save and Spend experiences designed to help people be better off.",
+        "The features are built around customer needs and aimed at getting people into the right money habits."
+      ],
+      "image": "assets/volt/volt_preview.png",
+      "link": "volt"
+    },
+    "page": {
+      "title": "Volt Mobile Bank",
+      "description": "Volt is the next generation of banking – digital, independent, and completely transparent. It offers simple Save and Spend experiences designed to help people be better off.",
+      "keywords": [
+        "IA, User flows, Prototyping",
+        "Interaction design, User Interface",
+        "Usability testing"
+      ],
+      "clients": {
+        "title": "",
+        "image": [ ]
+      },
+      "hero": "assets/volt/volt_hero.png",
+      "challenge": {
+        "image": [
+          { "image": "assets/volt/dash_message_flow.png", "caption": "", "width": "" },
+          { "image": "assets/volt/activate_card.png", "caption": "", "width": "" }
+        ],
+        "title": "The Challenge",
+        "description": [
+          "Mobile banks are faster, easier and offer a range of reduced services for less. The processes should be faster and lighter. Volt allows the creation of an account in only a few clicks and the information that is advised is easier to digest. The challenge for the user experience is to bring all the advantages together so that mobile banks have become the champions of customer satisfaction.",
+          "The overall mobile experience must replace not only desktop applications but all physical bank branches as well."
+        ],
+        "bullets" : [ ]
+      },
+      "research": {
+        "image": [ ],
+        "title": "The Research",
+        "description": [ ],
+        "bullets" : [ ]
+      },
+      "approach": {
+        "section": {
+          "image": [
+            { "image": "assets/volt/fast_fund.png", "caption": "", "width": "" }
+          ],
+          "title": "The Approach",
+          "description": [
+            "We've done a lot of experimenting. We tested, learnt and tested again to make sure we deliver things that will make a real difference to people. We prototyped and validate all design decisions with representative users.",
+            "We've done a lot of Usability Testing, a technique for validating all design decisions with representative users. It involved observation of users as they attempt to complete tasks. We used prototypes for these tests in order to identify areas where users encounter feasibility issues.",
+            "Usability testing revealed the problems real users experienced with the product under the actual conditions of use. We asked participants to carry out realistic tasks and noted where they experience problems.",
+            "The features are built around customer needs and aimed at getting people into the right money habits."
+          ],
+          "bullets": [ ]
+        },
+        "subsection": [ ]
+      },
+      "result": {
+        "image": [ ],
+        "title": "Results",
+        "description": [ ],
+        "bullets" : [ ]
+      }
+    }
+  },
+  "spokes": {
+    "summary": {
+      "type": "Mobile App, Software redesign",
+      "title": "9Spokes",
+      "subtitle": "Smart Business Dashboard",
+      "description": [
+        "The 9Spokes business dashboard for small and medium businesses provides a single view of the business data across all areas — from finance to marketing, and every vital thing in between. It allows to gauge performance and make quick, sharp business decisions.",
+        "The result was a new visual experience that feels fresh, engaging and provides the users' actionable insights to enable them to manage critical business data all in one place."
+      ],
+      "image": "assets/9spokes/spokes_preview.png",
+      "link": "9spokes"
+    },
+    "page": {
+      "title": "9Spokes",
+      "description": "The 9Spokes business dashboard for small and medium businesses provides a single view of the business data across all areas and allows to gauge performance and make quick, sharp business decisions.",
+      "keywords": [
+        "User Research, UX strategy",
+        "IA, User flows, Prototyping, Usability testing",
+        "Design system, Branding"
+      ],
+      "clients": {
+        "title": "Enterprise Customers",
+        "image": [
+          { "image": "assets/clients/barclays_logo.png", "caption": "", "height": "60px" },
+          { "image": "assets/clients/Bank_of_America.png", "caption": "", "height": "60px" },
+          { "image": "assets/clients/rbc_royal_bank.png", "caption": "", "height": "60px" },
+          { "image": "assets/clients/ocbc_bank.png", "caption": "", "height": "60px" }
+        ]
+      },
+      "hero": "assets/9spokes/spokes_preview.png",
+      "challenge": {
+        "image": [ ],
+        "title": "The Challenge",
+        "description": [
+          "The desktop app had a low user engagement due to poor user experience.",
+          "9Spokes was partnering with International white-label Enterprise customers and needed an efficient way of fast implementation of the product, re-branding, adaptable user flows and data. The lack of a Design System and Components library led to slow delivery and high cost of development.",
+          "9Spokes requested to create a new mobile app in order to increase users engagement and better position themselves in the market."
+        ],
+        "bullets" : [ ]
+      },
+      "research": {
+        "image": [
+          { "image": "assets/9spokes/spokes_card_1.png", "caption": "", "width": "" },
+          { "image": "assets/9spokes/spokes_card_2.png", "caption": "", "width": "" }
+        ],
+        "title": "The Research",
+        "description": [
+          "The project kicked off with user research that was designed to uncover the behaviours and common gripes of existing users.",
+          "To redefine the architecture of the app, we asked users to define what are some of the most important questions that come to mind about their business and what are key metrics they constantly checking on the go.",
+          "From these invaluable insights, it was clear that we needed to build a new app that was user-centric and mobile-first through and through."
+        ],
+        "bullets" : [ ]
+      },
+      "approach": {
+        "section": {
+          "image": [ ],
+          "title": "The Approach",
+          "description": [ ],
+          "bullets": [ ]
+        },
+        "subsection": [
+          {
+            "image": [
+              { "image": "assets/9spokes/spokes_mobile_app_ux.png", "caption": "", "height": "200px" }
+            ],
+            "title": "Dashboard User Experience",
+            "description": [
+              "The first step was to organise the content in an intuitive dashboard that made it easy for users to access real-time data. Ultimately, it was about making their working days easier by clearing the clutter and putting the most important information upfront.",
+              "This required a complete reorganisation of the user flow by introducing subcategories for ease of navigation. Widgets displayed the most important information and were easily customisable to give users more control over the content they saw on their dashboard."
+            ],
+            "bullets" : [ ]
+          },
+          {
+            "image": [
+              { "image": "assets/9spokes/spokes_mobile.png", "caption": "" }
+            ],
+            "title": "Mobile App",
+            "description": [
+              "The objective was to develop a user-focused app that will drive acquisition, retention and repeat usage.",
+              "From a series of prototypes, we landed on tab-based app architecture, each dedicated to a specific aspect of the client’s business: sales, marketing, people and finance data, and a dashboard with an overview of recent threats and activities. A card-based UI allowed to easily scale the dashboard as additional features were developed."
+            ],
+            "bullets" : [ ]
+          },
+          {
+            "image": [
+              { "image": "assets/9spokes/spokes_reskinRBC.png", "caption": "" }
+            ],
+            "title": "Design System and Rebranding",
+            "description": [
+              "9Spokes was partnering with top international banks and needed an efficient way of integrating their product. We provided a clear and structured Design System ​for faster delivery to Enterprise customers adjusting to their needs and branding. Critical to the success of the system was alignment with developers on Components that are built to be used over and over throughout a product and creating a way to fast and easy implementation process."
+            ],
+            "bullets" : [ ]
+          }
+        ]
+      },
+      "result": {
+        "image": [ ],
+        "title": "Results",
+        "description": [
+          "The result was a new visual experience that feels fresh, engaging and provides the user's actionable insights to enable them to manage critical business data all in one place. We designed an entirely new mobile app that has helped modernise 9Spokes to better position themselves in the market. Provided clear structured Design System for faster delivery to Enterprise customers allowed to increase implementation process from 8 Sprints to 2 Sprints."
+        ],
+        "bullets" : [ ]
+      }
+    }
+  },
+  "bullseye": {
+    "summary": {
+      "type": "Enterprise Software redesign",
+      "title": "Bullseye",
+      "subtitle": "B2B enterprise application software",
+      "description": [
+        "Bullseye is an application used by Westpac Institutional Banking teams to track performance, compliance and customer interactions. Over time, it has grown significantly, both in terms of functionality and the amount of business-critical data it holds.",
+        "We created a streamlined user interface and improved brand perception. Workflows were optimized for efficient navigation, performing personalised user actions within a flexible system designed to adapt to the application's user needs."
+      ],
+      "image": "assets/bullseye/bullseye_preview.png",
+      "link": "bullseye"
+    },
+    "page": {
+      "title": "Bullseye",
+      "description": "Bullseye is an application used by Westpac Institutional Banking teams to track performance, compliance and customer interactions.",
+      "keywords": [
+        "User Interviews, Task Analysis, Feature prioritisation",
+        "UX Audit, UX strategy, Personas",
+        "IA, User flows, Prototyping, Usability testing",
+        "UI, Design system"
+      ],
+      "clients": {
+        "title": "Client",
+        "image": [
+          { "image": "assets/bullseye/logo_westpac.png", "caption": "", "height": "30px" }
+        ]
+      },
+      "hero": "assets/bullseye/bullseye_preview.png",
+      "challenge": {
+        "image": [
+          { "image": "assets/bullseye/bullseye_previous.png", "caption": "", "height": "80%" }
+        ],
+        "title": "The Challenge",
+        "description": [
+          "The B2B platform was about twelve years old and a mishmash of different UIs had navigation issues and severe usability problems. Over time, it has grown significantly, both in terms of functionality and the amount of business-critical data it holds.",
+          "The current application was no longer fit for purpose and represents a significant, growing risk. It needed a unified UX design and a brand-consistent look and feel."
+        ],
+        "bullets" : [ ]
+      },
+      "research": {
+        "image": [
+          { "image": "assets/bullseye/w_features.png", "caption": "", "height": "80%" }
+        ],
+        "title": "The Research",
+        "description": [
+          "To build a knowledge base and point of context before the design process starts several UX workshops for different types of users were conducted. User interviews helped to discover the context of a problem and get insight into what possible outcomes there are for the design. Task Analysis were used to understand User Goals and Behaviour.",
+          "After the main user stories were validated, a simple Effort/Value matrix was used to identify which ones are most important to work on first."
+        ],
+        "bullets" : [ ]
+      },
+      "approach": {
+        "section": {
+          "image": [ ],
+          "title": "The Approach",
+          "description": [
+            "Four areas that needed to be improved in order to elevate the user experience on the platform were defined:"
+          ],
+          "bullets": [
+            "Usability (navigation, discoverability, UI standards)",
+            "Consistency (UI design, interaction design)",
+            "Workflow (user flow, interaction design, efficiency)",
+            "Brand perception"
+          ]
+        },
+        "subsection": [
+          {
+            "image": [
+              { "image": "assets/bullseye/bullseye_library.png", "caption": "" }
+            ],
+            "title": "Usability Improvements",
+            "description": [
+              "Improved navigation very quickly makes it clear what actions are possible in the UI. In this case, after a detailed UX audit, we proposed that we redesign the Information Architecture and navigation to expose all available options, (including those previously hidden), and reorganize it in a way that made sense to all different types of users."
+            ],
+            "bullets" : [ ]
+          },
+          {
+            "image": [ ],
+            "title": "Consistency in UX",
+            "description": [
+              "The current UI was a mishmash of different UIs. What made it confusing for the user was how the interactions, colours, layout, and font styles looked different from page to page. Consistency is about reducing learning and eliminating confusion.",
+              "We presented the need for greater UX consistency on the platform. Consistency is a part of usability. Greater consistency provides better usability and better usability increases brand credibility. As a result, a Design System library was developed."
+            ],
+            "bullets" : [ ]
+          },
+          {
+            "image": [ ],
+            "title": "Workflow Improvements",
+            "description": [
+              "In order to increase customer productivity, it was vital that we boosted the speed it took to get around the UI with an improved navigation design. Menus and submenus have to make sense for each group of users and the menu labelling was inconsistent. Customized UI elements by user type and its appearance showing only functionality that the user can access. Improving this benefited the workflow, and gave faster access to the areas users visit most often."
+            ],
+            "bullets" : [ ]
+          }
+        ]
+      },
+      "result": {
+        "image": [ ],
+        "title": "Results",
+        "description": [
+          "Introducing the smart UX strategy allowed to re-design and re-develop iteratively testing each change with a small number of users to de-risking the current platform. It allowed dramatically improve the overall User experience of the complex B2B platform in tight deadlines.",
+          "We created a streamlined user interface and improved brand perception. Workflows were optimized for efficient navigation, performing personalised user actions within a flexible system designed to adapt to the application’s user needs."
+        ],
+        "bullets" : [ ]
+      }
+    }
+  },
+  "ateed" : {
+    "summary": {
+      "type": "Dashboard experience",
+      "title": "Innovation Economy Portal",
+      "subtitle": "Web Application",
+      "description": [
+        "Innovation Economy Dashboard provided by Auckland Tourism, Events and Economic Development (ATEED) for the innovation community to connect, collaborate and build capability.",
+        "We were asked to design and deliver a platform that engaged, inspired and motivated users with a digital experience that showcases Auckland in a visual, interactive and easy to explore way. We provided the experience users needed to make a decision about a business opportunity in Auckland."
+      ],
+      "image": "assets/ateed/ateed_preview.png",
+      "link": "ateed"
+    },
+    "page": {
+      "title": "Innovation Economy Portal",
+      "description": "Innovation Economy Dashboard provided by Auckland Tourism, Events and Economic Development for the innovation community to connect, collaborate and build capability.",
+      "keywords": [
+        "Discovery Workshops, Primary personas",
+        "UX Audit, Comparative Sites Reviewed",
+        "Wireframes, Usability testing",
+        "Information Design and Analytics, UI design"
+      ],
+      "clients": {
+        "title": "Client",
+        "image": [
+          { "image": "assets/ateed/ateed_logo.png", "caption": "", "height": "60px" }
+        ]
+      },
+      "hero": "assets/ateed/ateed_preview.png",
+      "challenge": {
+        "image": [ ],
+        "title": "The Challenge",
+        "description": [
+          "It is often the first and sometimes only interaction our key audiences will have with ATEED",
+          "In our endeavour to market Auckland to the rest of the world and ultimately, become the world’s most livable city, we were tasked translating the current website into a world-class user experience that:"
+        ],
+        "bullets" : [
+          "Showcase Auckland as an international business and investment destination in key sectors.",
+          "Create a consistently compelling brand experience across the site that builds awareness, consideration and likeability of Auckland."
+        ]
+      },
+      "research": {
+        "image": [
+          { "image": "assets/ateed/workshop_users.png", "caption": "So, if we took the identified audiences. . .", "width": "" },
+          { "image": "assets/ateed/workshop_users_groups.png", "caption": "Then organised the audiences around broad user goals", "width": "" }
+        ],
+        "title": "Users Analysis",
+        "description": [
+          "To identify the key user’s groups and get a high-level sense of their needs, objectives, challenges and opportunities business unit workshops were conducted. We identified over 40 key audiences across the organisation. ATEED’s audiences had an extremely diverse range of user goals and information needs. If we treated all 40 audiences equal, we had run the risk of not doing a good job for anyone.",
+          "Our recommendation was to prioritise, look for crossover and do an incremental redesign. We aligned app presence around users with similar goals. We prioritised the design and user flows based on key user journeys."
+        ],
+        "bullets" : [ ]
+      },
+      "approach": {
+        "section": {
+          "image": [ ],
+          "title": "UX Audit",
+          "description": [
+            "A User Experience Audit is a way of finding the not-so-perfect areas of a digital product. We evaluated the product performance and customer behaviour. The information that we gathered allowed us to find areas to improve the quality of the product and enrich the user experience.",
+            "In order to elevate the user experience on the platform the key areas with recommendations were defined"
+          ],
+          "bullets": [ ]
+        },
+        "subsection": [
+          {
+            "image": [ ],
+            "title": "Navigation",
+            "description": [ ],
+            "bullets" : [
+              "Understand user’s mental models, then organise the content accordingly",
+              "Streamline content/navigation using smaller, localised content areas",
+              "Focus navigation on moving forward and use lightweight orientation devices",
+              "Ensure navigation is clear, direct, mutually exclusive. (not the place to be too creative"
+            ]
+          },
+          {
+            "image": [ ],
+            "title": "Finding Auckland Businesses",
+            "description": [ ],
+            "bullets" : [
+              "Quickly get users into product results, provide options that give users control post-query",
+              "Tailor content around the steps people go through in their jobs – and the information needed along the way",
+              "Make content straightforward and digestible across all devices"
+            ]
+          },
+          {
+            "image": [ ],
+            "title": "Introducing Key Sections",
+            "description": [ ],
+            "bullets" : [
+              "Provide focused experiences for specific audiences",
+              "Use appropriate design and content patterns for the context of the situation",
+              "Leverage ATEED brand, and sub-brands – but only when it’s to ATEED’s advantage"
+            ]
+          },
+          {
+            "image": [ ],
+            "title": "Providing Ways for Businesses to Self-Identify",
+            "description": [ ],
+            "bullets" : [
+              "Consider leveraging key business sectors so that users can self-identify and get focused and relevant information",
+              "Provide focused experiences for specific business audiences – so they feel they’re in the right place"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "image": [
+          { "image": "assets/ateed/ateed_preview1.png", "caption": "" },
+          { "image": "assets/ateed/ateed_preview2.png", "caption": "" },
+          { "image": "assets/ateed/ateed_preview3.png", "caption": "" },
+          { "image": "assets/ateed/ateed_preview4.png", "caption": "" },
+          { "image": "assets/ateed/ateed_mobile.png", "caption": "" }
+        ],
+        "title": "Results",
+        "description": [
+          "We created an Innovation Economy platform for the innovation community to access services and resources to build capability, connect and collaborate.",
+          "An analytical dashboard engaged, inspired and motivated different users groups with a digital experience that showcases Auckland in a visual, interactive and easy to explore way. We provided the depth, breadth and currency of content our audience needed to make a decision about a business opportunity in Auckland."
+        ],
+        "bullets" : [ ]
+      }
+    }
+  }
+}
