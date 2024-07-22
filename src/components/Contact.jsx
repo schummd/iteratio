@@ -1,36 +1,36 @@
 import * as React from 'react';
 import CheckIcon from '@mui/icons-material/Check';
-// import { styled } from '@mui/material/styles';
-import { Typography, Button, Grid, Box, Alert } from '@mui/material';
+import { styled } from '@mui/material/styles';
+import { Typography, Button, Grid, TextField, Box, Alert } from '@mui/material';
 
-// const CustomTextField = styled(TextField)({
-//   '& label.Mui-focused': {
-//     color: '#333',
-//   },
-//   '& .MuiInput-underline:after': {
-//     borderBottomColor: '#333',
-//   },
-//   '& .MuiOutlinedInput-root': {
-//     '& fieldset': {
-//       borderColor: '#333',
-//       borderRadius: '0px',
-//       // backgroundColor: 'white'
-//     },
-//     '&:hover fieldset': {
-//       borderColor: '#333',
-//       borderRadius: '0px'
-//     },
-//     '&.Mui-focused fieldset': {
-//       borderColor: '#333',
-//       borderRadius: '0px'
-//     },
-//   },
-// });
+const CustomTextField = styled(TextField)({
+  '& label.Mui-focused': {
+    color: '#333',
+  },
+  '& .MuiInput-underline:after': {
+    borderBottomColor: '#333',
+  },
+  '& .MuiOutlinedInput-root': {
+    '& fieldset': {
+      borderColor: '#333',
+      borderRadius: '0px',
+      // backgroundColor: 'white'
+    },
+    '&:hover fieldset': {
+      borderColor: '#333',
+      borderRadius: '0px'
+    },
+    '&.Mui-focused fieldset': {
+      borderColor: '#333',
+      borderRadius: '0px'
+    },
+  },
+});
 
-// const validateEmail = (email) => {
-//   const emailRegex = /^[^\s@]+@[^\s@]+$/;
-//   return emailRegex.test(email);
-// }
+const validateEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+$/;
+  return emailRegex.test(email);
+}
 
 const displayAlert = () => {
   return (
@@ -47,10 +47,10 @@ export default function Contact () {
   // const [email, setEmail] = React.useState('');
   // const [message, setMessage] = React.useState('');
 
-  // const [nameError, setNameError] = React.useState(false);
-  // const [companyError, setCompanyError] = React.useState(false);
-  // const [emailError, setEmailError] = React.useState('');
-  // const [messageError, setMessageError] = React.useState(false);
+  const [nameError, setNameError] = React.useState(false);
+  const [companyError, setCompanyError] = React.useState(false);
+  const [emailError, setEmailError] = React.useState('');
+  const [messageError, setMessageError] = React.useState(false);
   const [formState, setFormState] = React.useState(false);
 
   // const handleChange = (field, error) => {  }
@@ -58,34 +58,34 @@ export default function Contact () {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    // const data = new FormData(event.currentTarget);
-    // const user = {
-    //   email: data.get('email', '').toString().trim(),
-    //   name: data.get('name', '').toString(),
-    //   company: data.get('company', '').toString(),
-    //   message: data.get('message', '').toString(),
-    // };
+    const data = new FormData(event.currentTarget);
+    const user = {
+      email: data.get('email', '').toString().trim(),
+      name: data.get('name', '').toString(),
+      company: data.get('company', '').toString(),
+      message: data.get('message', '').toString(),
+    };
 
-    // let error = false;
+    let error = false;
 
-    // // Perform client-side validation
-    // if (!validateEmail(user.email)) {
-    //   error = true;
-    //   setEmailError('Invalid Email');
-    // }
-    // if (user.name.length === 0) {
-    //   error = true;
-    //   setNameError(true);
-    // }
-    // if (user.company.length === 0) {
-    //   error = true;
-    //   setCompanyError(true);
-    // }
-    // if (user.message.length === 0) {
-    //   error = true;
-    //   setMessageError(true);
-    // }
-    // if (error) return;
+    // Perform client-side validation
+    if (!validateEmail(user.email)) {
+      error = true;
+      setEmailError('Invalid Email');
+    }
+    if (user.name.length === 0) {
+      error = true;
+      setNameError(true);
+    }
+    if (user.company.length === 0) {
+      error = true;
+      setCompanyError(true);
+    }
+    if (user.message.length === 0) {
+      error = true;
+      setMessageError(true);
+    }
+    if (error) return;
 
     const myForm = event.target;
     const formData = new FormData(myForm);
@@ -148,16 +148,7 @@ export default function Contact () {
         {/* form */}
         <Grid item xs={12} sm={6} paddingLeft={{ xs: '0px', sm: '10px' }} paddingTop={{ xs: '40px', sm: '0px' }}>
 
-          <form name="contact" netlify>
-            <p>
-              <label>Name <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input type="email" name="email" /></label>
-            </p>
-
-
-          {/* <Box
+          <Box
             component={'form'}
             name={'contact-form'}
             noValidate
@@ -168,7 +159,6 @@ export default function Contact () {
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <CustomTextField
-                  // component={'input'}
                   aria-label={'name input field'}
                   required
                   fullWidth
@@ -185,7 +175,6 @@ export default function Contact () {
               </Grid>
               <Grid item xs={12}>
                 <CustomTextField
-                  // component={'input'}
                   aria-label={'company input field'}
                   required
                   fullWidth
@@ -202,7 +191,6 @@ export default function Contact () {
               </Grid>
               <Grid item xs={12}>
                 <CustomTextField
-                  // component={'input'}
                   aria-label={'email input field'}
                   required
                   fullWidth
@@ -219,7 +207,6 @@ export default function Contact () {
               </Grid>
               <Grid item xs={12}>
                 <CustomTextField
-                  // component={'input'}
                   aria-label={'message input field'}
                   required
                   fullWidth
@@ -236,7 +223,7 @@ export default function Contact () {
                   sx={{ marginBottom: '10px' }}
                 />
               </Grid>
-            </Grid> */}
+            </Grid>
 
             <Box
               display={'flex'}
@@ -248,14 +235,12 @@ export default function Contact () {
                 variant={'contained'}
                 color={'primary'}
                 disableElevation
-                onClick={() => handleSubmit}
+                // onClick={() => handleSubmit}
                 sx={{ borderRadius: '100px', marginTop: '10px', textTransform: 'capitalize' }}
               >
                 Submit
               </Button>
             </Box>
-
-            </form>
 
             {
               formState ?
@@ -263,7 +248,7 @@ export default function Contact () {
               null
             }
 
-          {/* </Box> */}
+          </Box>
 
         </Grid>
       </Grid>
