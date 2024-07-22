@@ -77,7 +77,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 
 const Carousel = (props) => {
   const { slides, options } = props
-  const [emblaRef, _emblaApi] = useEmblaCarousel(options, [Autoplay()])
+  const [emblaRef, _] = useEmblaCarousel(options, [Autoplay()])
 
   // const {
   //   prevBtnDisabled,
@@ -91,7 +91,7 @@ const Carousel = (props) => {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((image, i) => (
-            <img src={image} id={i} key={i} style={{ margin: '15px' }}/>
+            <img src={image} id={i} key={i} style={{ margin: '15px' }} alt={'logo_' + i}/>
           ))}
         </div>
       </div>
