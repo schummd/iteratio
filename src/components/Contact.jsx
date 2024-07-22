@@ -153,9 +153,8 @@ export default function Contact () {
             name={'contact-form'}
             noValidate
             onSubmit={handleSubmit}
-            netlify={'true'}
           >
-
+            <input type="hidden" name="form-name" value="contact" />
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <CustomTextField
