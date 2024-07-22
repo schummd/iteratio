@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Box, Typography, Button, Divider, List, ListItem } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import CircleIcon from '@mui/icons-material/Circle';
 
 const ClientLogo = ({ title, logos }) => {
   return (

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Typography, Box, styled } from '@mui/material';
-// import { useNavigate } from 'react-router-dom';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Slash = styled('div')({
@@ -33,7 +32,7 @@ export default function Footer () {
             <Typography variant={'h6'} sx={{ color: '#fff' }}>
               Anna Shum <Slash>/</Slash> Lead Product Designer
             </Typography>
-            <a href={'https://au.linkedin.com/in/anna-shum-a21a6165'} target={'_blank'} style={{ backgroundColor: '', paddingTop: '5px' }}>
+            <a href={'https://au.linkedin.com/in/anna-shum-a21a6165'} target={'_blank'} rel={'noreferrer'} style={{ backgroundColor: '', paddingTop: '5px' }}>
               <LinkedInIcon sx={{ fill: '#fff' }}/>
             </a>
           </Box>

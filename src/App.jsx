@@ -1,7 +1,7 @@
 import * as React from 'react';
 // import './index.css';
 import './App.css';
-import { HashRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
@@ -65,14 +65,6 @@ theme.typography.h3 = {
     fontWeight: 600,
   },
 }
-
-// theme.typography.body1 = {
-
-// }
-
-// theme.typography.subtitle1 = {
-
-// }
 
 function App() {
   return (

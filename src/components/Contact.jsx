@@ -2,7 +2,6 @@ import * as React from 'react';
 import CheckIcon from '@mui/icons-material/Check';
 import { styled } from '@mui/material/styles';
 import { Typography, Button, Grid, TextField, Box, Alert } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 
 const CustomTextField = styled(TextField)({
   '& label.Mui-focused': {
@@ -42,12 +41,11 @@ const displayAlert = () => {
 }
 
 export default function Contact () {
-  const navigate = useNavigate();
 
-  const [name, setName] = React.useState('');
-  const [company, setCompany] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [message, setMessage] = React.useState('');
+  // const [name, setName] = React.useState('');
+  // const [company, setCompany] = React.useState('');
+  // const [email, setEmail] = React.useState('');
+  // const [message, setMessage] = React.useState('');
 
   const [nameError, setNameError] = React.useState(false);
   const [companyError, setCompanyError] = React.useState(false);
@@ -55,20 +53,17 @@ export default function Contact () {
   const [messageError, setMessageError] = React.useState(false);
   const [formState, setFormState] = React.useState(false);
 
-  const handleChange = (field, error) => {
+  // const handleChange = (field, error) => {  }
+  // const handleClick = () => {}
 
-  }
-
-  const handleClick = () => {}
-
-  const handleSubmit = async (event) => {
+  async function handleSubmit(event) {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const user = {
       email: data.get('email', '').toString().trim(),
       name: data.get('name', '').toString(),
       company: data.get('company', '').toString(),
-			message: data.get('message', '').toString(),
+      message: data.get('message', '').toString(),
     };
 
     let error = false;
@@ -104,10 +99,9 @@ export default function Contact () {
     //         // display error notification
     //         setFormState(false);
     //       });
-
     // // resent the whole form
     // event.currentTarget.reset();
-  };
+  }
 
   // listens to a click anywhere on the page and removes the success alert
   // TODO: change to respond only to a click within the form !
@@ -148,7 +142,6 @@ export default function Contact () {
             name={'contact-form'}
             noValidate
             onSubmit={handleSubmit}
-            // sx={{ mt: 0, padding: '0px', backgroundColor: '' }}
           >
 
             <Grid container spacing={2} sx={{ background: '' }}>
@@ -160,13 +153,12 @@ export default function Contact () {
                   size='small'
                   id="name"
                   name="name"
-                  label={ name == "" ? "Name" : ""}
+                  // label={ name === "" ? "Name" : ""}
                   autoComplete="given-name"
                   error={nameError}
                   helperText={nameError ? 'Name can\'t be empty' : null}
                   onChange={() => setNameError(false)}
-                  onClick={handleClick}
-                  // InputLabelProps={{ shrink: false }}
+                  // onClick={handleClick}
                 />
               </Grid>
               <Grid item xs={12}>
@@ -235,10 +227,6 @@ export default function Contact () {
                 Submit
               </Button>
             </Box>
-
-            {/* <Box sx={{ marginTop: '30px' }}>
-              { formState ? displayAlert() : null }
-            </Box> */}
 
             {
               formState ?

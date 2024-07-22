@@ -1,13 +1,7 @@
 import * as React from 'react';
-import { Box, Typography, Button } from '@mui/material';
-// import { useNavigate } from 'react-router-dom';
+import { Box, Typography } from '@mui/material';
 
 export default function Banner () {
-  // const navigate = useNavigate();
-  // const handleClick = (link) => {
-	// 	navigate('/' + link);
-	// };
-
   return (
     <Box
       display={'flex'}
@@ -30,19 +24,6 @@ export default function Banner () {
           various industries, ensuring innovative, seamless solutions.
         </Typography>
       </Box>
-
-      {/* button */}
-      {/* <Box width={'80%'} sx={{ marginTop: 2 }}>
-        <Button
-          variant='outlined'
-          color='secondary'
-          // link to contact form
-          onClick={() => handleClick('')}
-          sx={{ borderRadius: '100px' }}
-        >
-          Explore More Projects
-        </Button>
-      </Box> */}
 
     </Box>
   )

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Typography, Divider, Grid } from '@mui/material';
+import { Box, Typography, Divider } from '@mui/material';
 
 export default function Logos () {
   const cache = {};
@@ -17,7 +17,6 @@ export default function Logos () {
       {/* line */}
       <Box
         display={'flex'}
-        // width={'80%'}
         justifyContent={'center'}
         paddingBottom={'1em'}
         sx={{ backgroundColor: ''}}
