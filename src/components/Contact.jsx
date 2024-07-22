@@ -111,7 +111,7 @@ export default function Contact () {
     //         setFormState(false);
     //       });
     // // resent the whole form
-    // event.currentTarget.reset();
+    event.currentTarget.reset();
   }
 
   // listens to a click anywhere on the page and removes the success alert
