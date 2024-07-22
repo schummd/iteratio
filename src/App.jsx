@@ -33,7 +33,7 @@ theme.typography.h1 = {
   fontFamily: "'Montserrat'",
 
   [theme.breakpoints.up('xs')]: {
-    fontSize: '4rem',
+    fontSize: '3rem',
     fontWeight: 700,
   },
   [theme.breakpoints.up('sm')]: {
@@ -45,7 +45,7 @@ theme.typography.h1 = {
 theme.typography.h2 = {
   fontFamily: "'Montserrat'",
   [theme.breakpoints.up('xs')]: {
-    fontSize: '2.5rem',
+    fontSize: '2rem',
     fontWeight: 700,
   },
   [theme.breakpoints.up('sm')]: {

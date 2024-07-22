@@ -103,6 +103,10 @@ export default function UseCase ({ description }) {
 		navigate('/' + link);
 	};
 
+  React.useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
+
   return (
     <Box
       display={'flex'}
