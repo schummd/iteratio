@@ -142,6 +142,7 @@ export default function Contact () {
             name={'contact-form'}
             noValidate
             onSubmit={handleSubmit}
+            netlify
           >
 
             <Grid container spacing={2} sx={{ background: '' }}>
