@@ -166,6 +166,7 @@ export default function Contact () {
                   id="name"
                   name="name"
                   // label={ name === "" ? "Name" : ""}
+                  label={"Name"}
                   autoComplete="given-name"
                   error={nameError}
                   helperText={nameError ? 'Name can\'t be empty' : null}
