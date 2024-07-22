@@ -23,7 +23,7 @@ export default function DisplayLeft ({ description }) {
       </Grid>
 
       {/* text */}
-      <Grid item xs={12} sm={6} paddingLef={{ sx: '0px', sm: '20px' }}>
+      <Grid item xs={12} sm={6} paddingLeft={{ sx: '0px', sm: '20px' }}>
         <Typography variant={'subtitle2'} color={'#949494'} marginTop={{ xs: '20px', sm: '0px' }}>{ description.type }</Typography>
         <Typography variant={'h2'} margin={'2px 0px'}>{ description.title }</Typography>
         <Typography variant={'h3'} margin={'12px 0px'}>{ description.subtitle }</Typography>
