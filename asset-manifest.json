@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.7b6f55b9.css",
-    "main.js": "/static/js/main.abd8bed3.js",
+    "main.js": "/static/js/main.83a15e47.js",
     "static/js/453.5858e738.chunk.js": "/static/js/453.5858e738.chunk.js",
+    "static/media/spokes_cards.png": "/static/media/spokes_cards.a5dd3ec5bd06acf7d48f.png",
     "static/media/previous roles.png": "/static/media/previous roles.bdaad4b09e67c17e0a6c.png",
     "static/media/concept1.png": "/static/media/concept1.e2cc70fd460282dc2b0e.png",
     "static/media/Registers.png": "/static/media/Registers.f370bd313af2ccc3f6e2.png",
@@ -84,11 +85,11 @@
     "static/media/westpac.svg": "/static/media/westpac.1548bae3d661faec6ec4.svg",
     "static/media/VOLT.svg": "/static/media/VOLT.4a9d0a0fbd4ad10604a1.svg",
     "main.7b6f55b9.css.map": "/static/css/main.7b6f55b9.css.map",
-    "main.abd8bed3.js.map": "/static/js/main.abd8bed3.js.map",
+    "main.83a15e47.js.map": "/static/js/main.83a15e47.js.map",
     "453.5858e738.chunk.js.map": "/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b6f55b9.css",
-    "static/js/main.abd8bed3.js"
+    "static/js/main.83a15e47.js"
   ]
 }
