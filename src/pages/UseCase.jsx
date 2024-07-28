@@ -44,11 +44,10 @@ const Section = ({ section }) => {
       flexDirection={'column'}
       justifyContent={'center'}
       alignItems={'center'}
-      // width={'100%'}
     >
       {/* title, descpription */}
       <Box width={'80%'} margin={'40px auto 26px'} backgroundColor={''}>
-        <Typography component={'h2'} variant={'h2'} marginBottom={'8px'}>{ section.title }</Typography>
+        <Typography component={section.title.size} variant={section.title.size} marginBottom={'8px'}>{ section.title.text }</Typography>
         {
           section.description.map((line, i) => (
             <Typography variant={'body1'} key={'text' + i} marginBottom={'14px'}>{ line }</Typography>
@@ -56,17 +55,15 @@ const Section = ({ section }) => {
         }
         {
           Object.keys(section.bullets).length !== 0 ?
-          // <Box width={'80%'} display={'flex'} backgroundColor={'pink'}>
-            <List sx={{ listStyleType: 'disc', backgroundColor: '', margin: 0, padding: 0, marginLeft: '48px' }}>
+            <List sx={{ listStyleType: 'disc', margin: 0, padding: 0, marginLeft: '48px' }}>
               {
                 section.bullets.map((line, i) => (
-                  <ListItem flex={1} key={"bullet" + i} sx={{ display: 'list-item', backgroundColor: '',  padding: '4px 0px'}}>
+                  <ListItem flex={1} key={"bullet" + i} sx={{ display: 'list-item',  padding: '4px 0px'}}>
                     <Typography variant={'body1'} key={i}>{ line }</Typography>
                   </ListItem>
                 ))
               }
             </List>
-          // </Box>
           :
           null
         }
@@ -75,20 +72,45 @@ const Section = ({ section }) => {
       {/* images of the section */}
       {
         Object.keys(section.image).length !== 0 ?
-        <Box width={'80%'} display={'flex'} flexDirection={'column'} margin={'40px auto 20px'} backgroundColor={''}>
-          {
-            section.image.map((item, i) => (
-              <Box
-                key={section.title.replace(/The /g, "") + "_" + i}
-                component={'img'}
-                src={require( "../" + item.image)}
-                sx={{ objectFit: 'contain' }}
-                // height={item.height}
-                marginBottom={'20px'}
-              />
-            ))
-          }
-        </Box> :
+        <>
+            {
+              section.image.map((item, i) => (
+                <Box
+                  key={section.title.text.replace(/The /g, "") + "_section_" + i}
+                  width={'100%'}
+                  display={'flex'}
+                  flexDirection={'column'}
+                  alignItems={'center'}
+                  margin={item.margin}
+                  padding={item.padding}
+                  backgroundColor={item.backgroundColor}
+                >
+                  <Box
+                    key={section.title.text.replace(/The /g, "") + "_subsection_" + i}
+                    width={'100%'}
+                    display={'flex'}
+                    flexDirection={'column'}
+                    alignItems={'center'}
+                  >
+                    <Box
+                      key={section.title.text.replace(/The /g, "") + "_image_" + i}
+                      component={'img'}
+                      src={require( "../" + item.image)}
+                      // sx={{ objectFit: 'contain' }}
+                      width={item.width}
+                    />
+                    {
+                      item.caption !== "" ?
+                      <Typography color={item.captionColor} marginTop={'20px'}>
+                        { item.caption }
+                      </Typography> :
+                      null
+                    }
+                  </Box>
+                </Box>
+              ))
+            }
+        </> :
         null
       }
 

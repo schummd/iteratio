@@ -41,20 +41,11 @@ const displayAlert = () => {
 }
 
 export default function Contact () {
-
-  // const [name, setName] = React.useState('');
-  // const [company, setCompany] = React.useState('');
-  // const [email, setEmail] = React.useState('');
-  // const [message, setMessage] = React.useState('');
-
   const [nameError, setNameError] = React.useState(false);
   const [companyError, setCompanyError] = React.useState(false);
   const [emailError, setEmailError] = React.useState('');
   const [messageError, setMessageError] = React.useState(false);
   const [formState, setFormState] = React.useState(false);
-
-  // const handleChange = (field, error) => {  }
-  // const handleClick = () => {}
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -98,24 +89,9 @@ export default function Contact () {
       .then(() => setFormState(true))
       .catch(() => setFormState(false));
 
-    // emailjs.sendForm('service_pxs4h07', 'template_qs2x30y', event.currentTarget, { publicKey: 'fbuDiw0NsG1Tb8d6k' })
-    // .then((response) => {
-    //         console.log('success!', response.status, response.text);
-    //         // display success notification
-    //         setFormState(true);
-    //         // displayAlert();
-    //       },
-    //       (err) => {
-    //         console.log('failed...', err)
-    //         // display error notification
-    //         setFormState(false);
-    //       });
-    // // resent the whole form
     event.currentTarget.reset();
   }
 
-  // listens to a click anywhere on the page and removes the success alert
-  // TODO: change to respond only to a click within the form !
   React.useEffect(() => {
     const handleClick = () => {
       setFormState(false);
@@ -234,7 +210,6 @@ export default function Contact () {
                 variant={'contained'}
                 color={'primary'}
                 disableElevation
-                // onClick={() => handleSubmit}
                 sx={{ borderRadius: '100px', marginTop: '10px', textTransform: 'capitalize' }}
               >
                 Submit

@@ -10,6 +10,9 @@ import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 
 export default function Home () {
+  React.useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <Box
       display={'flex'}
