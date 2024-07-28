@@ -108,8 +108,7 @@
       },
       "research": {
         "image": [
-          { "image": "assets/9spokes/spokes_card_1.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" },
-          { "image": "assets/9spokes/spokes_card_2.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          { "image": "assets/9spokes/spokes_cards.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
         ],
         "title": { "text": "The Research", "size": "h2" },
         "description": [
