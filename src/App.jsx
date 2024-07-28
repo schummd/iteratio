@@ -1,7 +1,7 @@
 import * as React from 'react';
 // import './index.css';
 import './App.css';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
@@ -68,7 +68,7 @@ theme.typography.h3 = {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Header />
       <ThemeProvider theme={theme}>
         <Container component='main' sx={{ padding: '0px!important', maxWidth: '100%!important' }}>
@@ -84,7 +84,7 @@ function App() {
         </Container>
       </ThemeProvider>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
