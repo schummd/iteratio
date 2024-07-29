@@ -46,7 +46,7 @@ const Section = ({ section }) => {
       alignItems={'center'}
     >
       {/* title, descpription */}
-      <Box width={'60%'} margin={'40px auto 26px'} backgroundColor={''}>
+      <Box width={{ xs: '80%', sm: '60%'}} margin={'40px auto 26px'} backgroundColor={''}>
         <Typography component={section.title.size} variant={section.title.size} marginBottom={'8px'}>{ section.title.text }</Typography>
         {
           section.description.map((line, i) => (
