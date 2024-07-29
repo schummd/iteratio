@@ -28,12 +28,18 @@ export default function DisplayRight ({ description }) {
         <Typography variant={'subtitle2'} color={'#949494'}>{ description.type }</Typography>
         <Typography variant={'h2'} margin={'2px 0px'}>{ description.title }</Typography>
         <Typography variant={'h3'} margin={'12px 0px'}>{ description.subtitle }</Typography>
-        <Typography variant={'body1'}>{ description.description }</Typography>
+        {
+          description.description.map((line, i) => (
+            <Typography variant={'body1'} key={'description_' + i} marginBottom={'7px'}>
+              { line }
+            </Typography>
+          ))
+        }
         <Button
           variant={'outlined'}
           color={'primary'}
           onClick={() => handleClick(description.link)}
-          sx={{ borderRadius: '100px', margin: '14px 0px' }}
+          sx={{ borderRadius: '100px', margin: '7px 0px 14px' }}
         >
           See More
         </Button>
