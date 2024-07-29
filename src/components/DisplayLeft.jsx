@@ -29,7 +29,7 @@ export default function DisplayLeft ({ description }) {
         <Typography variant={'h3'} margin={'12px 0px'}>{ description.subtitle }</Typography>
         {
           description.description.map((line, i) => (
-            <Typography variant={'body1'} key={'description_' + i} marginBottom={'14px'}>
+            <Typography variant={'body1'} key={'description_' + i} marginBottom={'7px'}>
               { line }
             </Typography>
           ))
