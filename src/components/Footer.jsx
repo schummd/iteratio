@@ -18,7 +18,7 @@ export default function Footer () {
       sx={{ backgroundColor: '#333' }}
     >
       <Box
-        width={'80%'}
+        width={'60%'}
         padding={'60px 0px'}
         sx={{ backgroundColor: '' }}
         >

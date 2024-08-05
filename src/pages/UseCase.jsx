@@ -95,9 +95,9 @@ const Section = ({ section }) => {
                     <Box
                       key={section.title.text.replace(/The /g, "") + "_image_" + i}
                       component={'img'}
-                      src={require( "../" + item.image)}
-                      // sx={{ objectFit: 'contain' }}
                       width={item.width}
+                      src={require( "../" + item.image)}
+                      alt={''}
                     />
                     {
                       item.caption !== "" ?
@@ -169,6 +169,7 @@ export default function UseCase ({ description }) {
             height={'100%'}
             src={require( "../" + description.hero)}
             sx={{ objectFit: 'contain' }}
+            alt={'use case hero image'}
           />
         </Box>
 

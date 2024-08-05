@@ -26,7 +26,7 @@ export default function Services () {
     >
 
       {/* title */}
-      <Box width={'80%'} margin={'5px 0px'}>
+      <Box width={'60%'} margin={'5px 0px'}>
         <Typography component={'h2'} variant={'h2'} textAlign={'center'} marginBottom={'8px'}>
           Services and Deliverables
         </Typography>
@@ -36,7 +36,7 @@ export default function Services () {
       </Box>
 
       {/* services */}
-      <Box width={'80%'} marginTop={'20px'}>
+      <Box width={'60%'} marginTop={'20px'}>
         <Grid container gap={0} spacing={0}>
           {
             Object.keys(services).map((key, i) => (

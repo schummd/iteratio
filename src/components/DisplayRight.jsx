@@ -10,10 +10,10 @@ export default function DisplayRight ({ description }) {
 	};
 
   return (
-    <Grid container gap={0} width={'80%'} padding={'40px 0px'}>
+    <Grid container gap={0} width={'60%'} padding={'40px 0px'}>
 
       {/* image for mobile */}
-      <Grid item xs={12} sm={6} display={{ xs: 'flex', sm: 'none' }} sx={{ paddingLeft: { xs: '0px', sm: '20px' }, paddingTop: { xs: '10px', sm: '0px' } }}>
+      <Grid item xs={12} sm={6} display={{ xs: 'flex', sm: 'none' }} sx={{ paddingLeft: { xs: '0px', sm: '40px' }, paddingTop: { xs: '10px', sm: '0px' } }}>
         <Box
           component={'img'}
           flexShrink={1}
@@ -24,7 +24,7 @@ export default function DisplayRight ({ description }) {
       </Grid>
 
       {/* text */}
-      <Grid item xs={12} sm={6} paddingRight={{ xs: '0px', sm: '20px' }}>
+      <Grid item xs={12} sm={6} paddingRight={{ xs: '0px', sm: '40px' }}>
         <Typography variant={'subtitle2'} color={'#949494'}>{ description.type }</Typography>
         <Typography variant={'h2'} margin={'2px 0px'}>{ description.title }</Typography>
         <Typography variant={'h3'} margin={'12px 0px'}>{ description.subtitle }</Typography>

@@ -26,8 +26,24 @@
       "hero": "assets/volt/volt_hero.png",
       "challenge": {
         "image": [
-          { "image": "assets/volt/dash_message_flow.png", "caption": "Dashboard Messages Flow", "width": "80%", "backgroundColor": "#ededec", "captionColor": "", "margin": "0px", "padding": "80px 0px" },
-          { "image": "assets/volt/activate_card.png", "caption": "Card Activation", "width": "80%", "backgroundColor": "#1c282a", "captionColor": "#fff", "margin": "0px", "padding": "80px 0px" }
+          {
+            "image": "assets/volt/dash_message_flow.png",
+            "caption": "Dashboard Messages Flow",
+            "width": "80%",
+            "backgroundColor": "#ededec",
+            "captionColor": "",
+            "margin": "0px",
+            "padding": "80px 0px"
+          },
+          {
+            "image": "assets/volt/activate_card.png",
+            "caption": "Card Activation",
+            "width": "80%",
+            "backgroundColor": "#1c282a",
+            "captionColor": "#fff",
+            "margin": "0px",
+            "padding": "80px 0px"
+          }
         ],
         "title": { "text": "The Challenge", "size": "h2" },
         "description": [
@@ -45,7 +61,15 @@
       "approach": {
         "section": {
           "image": [
-            { "image": "assets/volt/fast_fund.png", "caption": "Fast Fund", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+            {
+              "image": "assets/volt/fast_fund.png",
+              "caption": "Fast Fund",
+              "width": "80%",
+              "backgroundColor": "",
+              "captionColor": "",
+              "margin": "40px auto",
+              "padding": "0px"
+            }
           ],
           "title": { "text": "The Approach", "size": "h2" },
           "description": [
@@ -89,10 +113,38 @@
       "clients": {
         "title": "Enterprise Customers",
         "image": [
-          { "image": "assets/clients/barclays_logo.png", "caption": "", "width": "", "backgroundColor": "",  "captionColor": "", "margin": "" },
-          { "image": "assets/clients/Bank_of_America.png", "caption": "", "width": "", "backgroundColor": "",  "captionColor": "", "margin": "" },
-          { "image": "assets/clients/rbc_royal_bank.png", "caption": "", "width": "", "backgroundColor": "",  "captionColor": "", "margin": "" },
-          { "image": "assets/clients/ocbc_bank.png", "caption": "", "width": "", "backgroundColor": "",  "captionColor": "", "margin": "" }
+          {
+            "image": "assets/clients/barclays_logo.png",
+            "caption": "",
+            "width": "",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": ""
+          },
+          {
+            "image": "assets/clients/Bank_of_America.png",
+            "caption": "",
+            "width": "",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": ""
+          },
+          {
+            "image": "assets/clients/rbc_royal_bank.png",
+            "caption": "",
+            "width": "",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": ""
+          },
+          {
+            "image": "assets/clients/ocbc_bank.png",
+            "caption": "",
+            "width": "",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": ""
+          }
         ]
       },
       "hero": "assets/9spokes/spokes_preview.png",
@@ -108,7 +160,15 @@
       },
       "research": {
         "image": [
-          { "image": "assets/9spokes/spokes_cards.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          {
+            "image": "assets/9spokes/spokes_cards.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          }
         ],
         "title": { "text": "The Research", "size": "h2" },
         "description": [
@@ -128,7 +188,15 @@
         "subsection": [
           {
             "image": [
-              { "image": "assets/9spokes/spokes_mobile_app_ux.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+              {
+                "image": "assets/9spokes/spokes_mobile_app_ux.png",
+                "caption": "",
+                "width": "80%",
+                "backgroundColor": "",
+                "captionColor": "",
+                "margin": "40px auto",
+                "padding": "0px"
+              }
             ],
             "title": { "text": "Dashboard User Experience", "size": "h2" },
             "description": [
@@ -139,7 +207,15 @@
           },
           {
             "image": [
-              { "image": "assets/9spokes/spokes_mobile.png", "caption": "", "width": "80%", "backgroundColor": "#ededed",  "captionColor": "", "margin": "0px", "padding": "80px 0px" }
+              {
+                "image": "assets/9spokes/spokes_mobile.png",
+                "caption": "",
+                "width": "80%",
+                "backgroundColor": "#ededed",
+                "captionColor": "",
+                "margin": "0px",
+                "padding": "80px 0px"
+              }
             ],
             "title": { "text": "Mobile App", "size": "h2" },
             "description": [
@@ -150,7 +226,15 @@
           },
           {
             "image": [
-              { "image": "assets/9spokes/spokes_reskinRBC.png", "caption": "B2B Customer Dashboard", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+              {
+                "image": "assets/9spokes/spokes_reskinRBC.png",
+                "caption": "B2B Customer Dashboard",
+                "width": "80%",
+                "backgroundColor": "",
+                "captionColor": "",
+                "margin": "40px auto",
+                "padding": "0px"
+              }
             ],
             "title": { "text": "Design System and Rebranding", "size": "h2" },
             "description": [
@@ -194,13 +278,29 @@
       "clients": {
         "title": "Client",
         "image": [
-          { "image": "assets/bullseye/logo_westpac.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "", "padding": "" }
+          {
+            "image": "assets/bullseye/logo_westpac.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "",
+            "padding": ""
+          }
         ]
       },
       "hero": "assets/bullseye/bullseye_preview.png",
       "challenge": {
         "image": [
-          { "image": "assets/bullseye/bullseye_previous.png", "caption": "Bullseye Before Re-Design", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          {
+            "image": "assets/bullseye/bullseye_previous.png",
+            "caption": "Bullseye Before Re-Design",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          }
         ],
         "title": { "text": "The Challenge", "size": "h2" },
         "description": [
@@ -211,7 +311,15 @@
       },
       "research": {
         "image": [
-          { "image": "assets/bullseye/w_features.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          {
+            "image": "assets/bullseye/w_features.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          }
         ],
         "title": { "text": "The Research", "size": "h2" },
         "description": [
@@ -237,7 +345,15 @@
         "subsection": [
           {
             "image": [
-              { "image": "assets/bullseye/bullseye_library.png", "caption": "", "width": "80%", "backgroundColor": "#f0f1f4",  "captionColor": "", "margin": "0px", "padding": "80px 0px" }
+              {
+                "image": "assets/bullseye/bullseye_library.png",
+                "caption": "",
+                "width": "80%",
+                "backgroundColor": "#f0f1f4",
+                "captionColor": "",
+                "margin": "0px",
+                "padding": "80px 0px"
+              }
             ],
             "title": { "text": "Usability Improvements", "size": "h2" },
             "description": [
@@ -299,7 +415,15 @@
       "clients": {
         "title": "Client",
         "image": [
-          { "image": "assets/ateed/ateed_logo.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          {
+            "image": "assets/ateed/ateed_logo.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          }
         ]
       },
       "hero": "assets/ateed/ateed_preview.png",
@@ -317,8 +441,24 @@
       },
       "research": {
         "image": [
-          { "image": "assets/ateed/workshop_users.png", "caption": "So, if we took the identified audiences. . .", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" },
-          { "image": "assets/ateed/workshop_users_groups.png", "caption": "Then organised the audiences around broad user goals", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          {
+            "image": "assets/ateed/workshop_users.png",
+            "caption": "So, if we took the identified audiences. . .",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          },
+          {
+            "image": "assets/ateed/workshop_users_groups.png",
+            "caption": "Then organised the audiences around broad user goals",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          }
         ],
         "title": { "text": "Users Analysis", "size": "h2"},
         "description": [
@@ -382,11 +522,51 @@
       },
       "result": {
         "image": [
-          { "image": "assets/ateed/ateed_preview1.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" },
-          { "image": "assets/ateed/ateed_preview2.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" },
-          { "image": "assets/ateed/ateed_preview3.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" },
-          { "image": "assets/ateed/ateed_preview4.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" },
-          { "image": "assets/ateed/ateed_mobile.png", "caption": "", "width": "80%", "backgroundColor": "",  "captionColor": "", "margin": "40px auto", "padding": "0px" }
+          {
+            "image": "assets/ateed/ateed_preview1.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          },
+          {
+            "image": "assets/ateed/ateed_preview2.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          },
+          {
+            "image": "assets/ateed/ateed_preview3.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          },
+          {
+            "image": "assets/ateed/ateed_preview4.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          },
+          {
+            "image": "assets/ateed/ateed_mobile.png",
+            "caption": "",
+            "width": "80%",
+            "backgroundColor": "",
+            "captionColor": "",
+            "margin": "40px auto",
+            "padding": "0px"
+          }
         ],
         "title": { "text": "Results", "size": "h2" },
         "description": [

@@ -12,7 +12,7 @@ export default function Banner () {
       padding={'48px 0px'}
     >
 
-      <Box width={'80%'}>
+      <Box width={'60%'}>
         <Typography component={'p'} variant={'body1'} textAlign={'left'} color={'#fff'}>
           With 20+ years in UX strategy and product design leadership,
           I specialize in fast-paced UX/UI processes, focusing on

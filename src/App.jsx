@@ -31,13 +31,12 @@ const theme = createTheme({
 
 theme.typography.h1 = {
   fontFamily: "'Montserrat'",
-
   [theme.breakpoints.up('xs')]: {
     fontSize: '3rem',
     fontWeight: 700,
   },
   [theme.breakpoints.up('sm')]: {
-    fontSize: '4rem',
+    fontSize: '4.5rem',
     fontWeight: 700,
   }
 }

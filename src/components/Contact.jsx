@@ -107,7 +107,7 @@ export default function Contact () {
       width={'100%'}
       backgroundColor={'#dfbaf2'}
     >
-      <Grid container gap={0} width={'80%'} padding={'80px 0px'}>
+      <Grid container gap={0} width={'60%'} padding={'80px 0px'}>
 
         {/* text */}
         <Grid item xs={12} sm={6} paddingRight={{ xs: '0px', sm: '20px' }} paddingTop={{ xs: '10px', sm: '0px' }}>
@@ -130,7 +130,7 @@ export default function Contact () {
             noValidate
             onSubmit={handleSubmit}
           >
-            <input type="hidden" name="form-name" value="contact" />
+            <input type={'hidden'} name={'form-name'} value={'contact'} />
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <CustomTextField
@@ -138,8 +138,8 @@ export default function Contact () {
                   required
                   fullWidth
                   size={'small'}
-                  id={"name"}
-                  name={"name"}
+                  id={'name'}
+                  name={'name'}
                   type={'text'}
                   label={'Name'}
                   autoComplete={'given-name'}
