@@ -20,14 +20,12 @@ export default function Footer () {
       <Box
         width={'60%'}
         padding={'60px 0px'}
-        sx={{ backgroundColor: '' }}
         >
           <Box
             display={'flex'}
             flexDirection={'row'}
             justifyContent={'space-between'}
             alignItems={'center'}
-            sx={{ backgroundColor: '' }}
           >
             <Typography variant={'h6'} sx={{ color: '#fff' }}>
               Anna Shum <Slash>/</Slash> Lead Product Designer

@@ -6,9 +6,9 @@ import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 
 export default function Services () {
   const services = {
-    one: [ "Design Strategy & Planning", "Product Design Leadership", "User Research & Analysis", "Design Concepts & Ideation", "CX Omnichannel" ],
-    two: [ "UX Design & Prototyping", "Branding & Design Systems", "UI Design & Interactions", "UX Audit & Usability Testing", "Design Leadership" ],
-    three: [ "Usability & Accessibility", "Stakeholder Management", "Agile Collaboration", "HCD Methodologies", "Mentorship & Support" ],
+    one: [ "Strategic Design", "Product Design Leadership", "User Research", "Conceptual Ideation", "CX Design" ],
+    two: [ "UX Prototyping", "Design Systems", "UI/UX Design", "Interaction Design", "UX Audits & Usability Testing" ],
+    three: [ "Innovation Management", "Inclusive Design", "Stakeholder Engagement", "Agile Collaboration", "Human-Centered Design" ],
   };
   const icons = [
     <ShapeLineIcon sx={{ marginBottom: '16px' }}/>,
@@ -22,7 +22,7 @@ export default function Services () {
       flexDirection={'column'}
       alignItems={'center'}
       width={'100%'}
-      margin={'80px auto'}
+      margin={'80px 0px 40px'}
     >
 
       {/* title */}
@@ -30,8 +30,8 @@ export default function Services () {
         <Typography component={'h2'} variant={'h2'} textAlign={'center'} marginBottom={'8px'}>
           Services and Deliverables
         </Typography>
-        <Typography component={'h3'} variant={'subtitle1'} fontSize={24} textAlign={'center'} marginBottom={'8px'}>
-          I run UX design projects from strategy to production.
+        <Typography component={'p'} variant={'body1'} textAlign={'center'} marginBottom={'8px'}>
+          I run UX design projects from strategy to production for FinTech, SaaS platforms, data visualisation tools, and AI-enhanced interfaces.
         </Typography>
       </Box>
 
