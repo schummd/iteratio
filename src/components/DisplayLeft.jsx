@@ -9,7 +9,7 @@ export default function DisplayLeft ({ description }) {
 	};
 
   return (
-    <Grid container gap={0} width={'60%'} padding={'40px 0px'}>
+    <Grid container gap={0} width={'60%'} padding={'50px 0px'}>
 
       {/* image */}
       <Grid item xs={12} sm={6} display={'flex'} paddingRight={{ xs: '0px', sm: '40px' }} paddingTop={{ xs: '10px', sm: '0px' }}>
@@ -23,7 +23,7 @@ export default function DisplayLeft ({ description }) {
       </Grid>
 
       {/* text */}
-      <Grid item xs={12} sm={6} paddingLeft={{ sx: '0px', sm: '40px' }}>
+      <Grid item xs={12} sm={6} alignContent={'center'} paddingLeft={{ sx: '0px', sm: '40px' }}>
         <Typography variant={'subtitle2'} color={'#949494'} marginTop={{ xs: '30px', sm: '0px' }}>{ description.type }</Typography>
         <Typography variant={'h2'} margin={'2px 0px'}>{ description.title }</Typography>
         <Typography variant={'h3'} margin={'12px 0px'}>{ description.subtitle }</Typography>

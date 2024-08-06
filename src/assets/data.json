@@ -5,8 +5,7 @@
       "title": "Volt",
       "subtitle": "Digital Banking",
       "description": [
-        "Volt is the next generation of banking – digital, independent, and completely transparent. It offers simple Save and Spend experiences designed to help people be better off.",
-        "The features are built around customer needs and aimed at getting people into the right money habits."
+        "Revolutionizes personal finance with a transparent, user-centric platform to cultivate better money habits."
       ],
       "image": "assets/volt/volt_preview.png",
       "link": "volt"
@@ -96,8 +95,7 @@
       "title": "9Spokes",
       "subtitle": "Smart Business Dashboard",
       "description": [
-        "The 9Spokes business dashboard for small and medium businesses provides a single view of the business data across all areas — from finance to marketing, and every vital thing in between. It allows to gauge performance and make quick, sharp business decisions.",
-        "The result was a new visual experience that feels fresh, engaging and provides the users' actionable insights to enable them to manage critical business data all in one place."
+        "Empowering SMBs with a comprehensive view of critical business data, facilitating informed decision-making across all operations."
       ],
       "image": "assets/9spokes/spokes_preview.png",
       "link": "9spokes"
@@ -258,10 +256,9 @@
     "summary": {
       "type": "Enterprise Software redesign",
       "title": "Bullseye",
-      "subtitle": "B2B enterprise application software",
+      "subtitle": "B2B Enterprise Application ",
       "description": [
-        "Bullseye is an application used by Westpac Institutional Banking teams to track performance, compliance and customer interactions. Over time, it has grown significantly, both in terms of functionality and the amount of business-critical data it holds.",
-        "We created a streamlined user interface and improved brand perception. Workflows were optimized for efficient navigation, performing personalised user actions within a flexible system designed to adapt to the application's user needs."
+        "Enhancing Westpac Institutional Banking's performance tracking and compliance with a streamlined, adaptive interface."
       ],
       "image": "assets/bullseye/bullseye_preview.png",
       "link": "bullseye"
@@ -397,8 +394,7 @@
       "title": "Innovation Economy Portal",
       "subtitle": "Web Application",
       "description": [
-        "Innovation Economy Dashboard provided by Auckland Tourism, Events and Economic Development (ATEED) for the innovation community to connect, collaborate and build capability.",
-        "We were asked to design and deliver a platform that engaged, inspired and motivated users with a digital experience that showcases Auckland in a visual, interactive and easy to explore way. We provided the experience users needed to make a decision about a business opportunity in Auckland."
+        "Developing an engaging, interactive platform for Auckland's innovation ecosystem to foster connections, collaboration, and growth."
       ],
       "image": "assets/ateed/ateed_preview.png",
       "link": "ateed"

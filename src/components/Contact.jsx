@@ -113,11 +113,10 @@ export default function Contact () {
         <Grid item xs={12} sm={6} paddingRight={{ xs: '0px', sm: '20px' }} paddingTop={{ xs: '10px', sm: '0px' }}>
           <Typography variant={'h2'}>Get in touch</Typography>
           <Typography variant={'body1'} margin={'18px 0px'}>
-            Want to improve the usability of your product?
-            Want to engage users at a higher level and outperform your competition?
+            Ready to enhance your product's usability, boost user engagement, and gain a competitive edge?
           </Typography>
           <Typography variant={'body1'}>
-            Contact me to tell more about your company and the challenges you face.
+            Let's discuss your challenges and craft a strategy for digital excellence.
           </Typography>
         </Grid>
 

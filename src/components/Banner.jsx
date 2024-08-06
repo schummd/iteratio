@@ -9,19 +9,15 @@ export default function Banner () {
       alignItems={'center'}
       width={'100%'}
       backgroundColor={'#712963'}
-      padding={'48px 0px'}
+      padding={'54px 0px'}
     >
 
       <Box width={'60%'}>
         <Typography component={'p'} variant={'body1'} textAlign={'left'} color={'#fff'}>
-          With 20+ years in UX strategy and product design leadership,
-          I specialize in fast-paced UX/UI processes, focusing on
-          experimentation and validation. My track record spans startups
-          and established companies, transforming concepts into intuitive
-          user experiences. Expertise in FinTech, SaaS, data visualization,
-          and AI-driven design with a strong focus on conversion and UX
-          optimization. Effective collaboration with diverse teams in
-          various industries, ensuring innovative, seamless solutions.
+          With over two decades of experience in UX strategy and product design leadership,
+          I specialize in agile UX/UI processes, emphasizing rapid experimentation and
+          validation. My track record spans from dynamic startups to established enterprises,
+          consistently transforming concepts into intuitive, high-converting user experiences.
         </Typography>
       </Box>
 

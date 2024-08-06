@@ -14,11 +14,11 @@ export default function Hero () {
 
       <Box width={'80%'} margin={'20% auto'}>
         <Typography component={'h1'} variant={'h1'} marginBottom={'10px'}>
-          Expert Product and User Experience Designer
+          Lead UX Designer and Product Innovation Expert
         </Typography>
 
         <Typography component={'h2'} variant={'subtitle1'} fontSize={24}>
-          Crafting digital excellence from concept to success, ensuring relevance, effectiveness, and user-friendliness.
+          Elevating digital experiences through user-centered innovation, strategic design, and measurable results.
         </Typography>
       </Box>
 
